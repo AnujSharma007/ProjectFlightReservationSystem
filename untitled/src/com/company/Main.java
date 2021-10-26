@@ -11,13 +11,13 @@ public class Main {
                     "DepartureDateTime", "ArrivalDateTIme",
                     "10A", 15000, false, null, null,
                     "Dubai Hotel", new String[]{""});
-            
+
             printTicketDetails(regularTicket);
             printTicketDetails(touristTicket);
         }
 
         public static void printTicketDetails(Ticket ticket) {
-            System.out.println(ticket.getPrice());
+            System.out.println(ticket.getPnr());
         }
         // write your code here
     }
